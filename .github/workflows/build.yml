@@ -33,5 +33,5 @@ jobs:
       - name: Build and analyze
         env:
           GITHUB_TOKEN: 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
-          SONAR_TOKEN: ba5bfe3290640165298d2ffc8e610b3d3851eb3f
+          SONAR_TOKEN: dbd8f06e9ffd74afaf87bb3b1e79ad6bb45a1ebf
         run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=thalarikalyan_JRPT_CrudOperations
